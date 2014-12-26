@@ -1,4 +1,4 @@
 guanxin02
 =========
 
-GhostJS based portfolio site for Guanxin.
+Portfolio site for Guanxin, GitHub Pages style.
