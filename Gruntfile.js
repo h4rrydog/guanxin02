@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
 
     // Sass configuration
-    sass: {
+    compass: {
       options: {
         sourceMap: false,
         outputStyle: 'compressed'
@@ -71,7 +71,7 @@ module.exports = function(grunt) {
       ],
       tasks: [
         'copy',
-        'sass',
+        'compass',
         'postcss'
       ]
     }
