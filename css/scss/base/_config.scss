@@ -2,6 +2,9 @@
 // Project Settings
 //**
 
+
+
+
 // Consistent settings
 $br: 5px; // Border-radius
 $btn-br: 5px; // Button border-radius
@@ -41,13 +44,18 @@ $white:  #fff;
 $silver: #ddd;
 $grey:   #aaa;
 $black:  #111;
-
+// Guanxin colour palette
+$g-gray: #4A4A4A;
+$g-lt-gray: #f2f2f2;
+$g-yellow: #F8E71C;
+$g-red: #C3021A;
+$g-cream: #FDF9C6;
 
 
 
 
 // Project color variables
-$primary-color: #1271db;
+$primary-color: $yellow;
 $secondary-color: #233e5b;
 $tertiary-color: #aaa;
 
@@ -55,8 +63,12 @@ $tertiary-color: #aaa;
 
 
 
-$danger-color: $red; // Bad color for errors, validation etc.
+$danger-color: $g-red; // Bad color for errors, validation etc.
 $success-color: $green; // Good color for success etc.
 $info-color: $blue; // Good color for success etc.
 $warning-color: $orange; // Good color for success etc.
-$subtle-color: $grey; // Subtle color for subtle text
+$subtle-color: $g-gray; // Subtle color for subtle text
+
+
+
+

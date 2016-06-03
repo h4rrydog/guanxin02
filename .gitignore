@@ -27,3 +27,9 @@ bower_components
 
 # Sublime files
 guanxin02.sublime-*
+
+# Git files
+.gitignore.swp
+
+# SASS files
+.sass-cache

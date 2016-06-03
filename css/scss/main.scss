@@ -1,13 +1,14 @@
 // Reset default browser styles using Normalize
-@import "../../bower_components/normalize-scss/fork-versions/default/_normalize.scss";
+@import "../../bower_components/normalize-scss/fork-versions/ruby-sass-compass/_normalize.scss";
 
 // Install FontAwesome for useful icons
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 
 // Import fonts from Google
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,900,900italic);
 
 // Set variables and reusable mixins
+@import "compass/css3";
 @import "base/config";
 @import "base/mixins";
 
@@ -34,6 +35,9 @@
 
 // If IE support is needed
 @import "base/ie";
+
+// Hexagons!
+@import "base/hexagon";
 
 // For anything quick and dirty that needs thrown in
 @import "base/shame";

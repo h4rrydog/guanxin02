@@ -3,7 +3,110 @@
 //**
 
 
+// Sections
+.section--header {
+  @include border-top-radius(20px);
+  background-color: $g-gray;
+  height: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+  nav {
+    vertical-align: middle;
+  }
+  ul {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a {
+    color: $white;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 75px;
+    padding: 0;
+    width: 200px;
+  }
+  a:hover {
+    color: $g-yellow;
+  }
+  img {
+    width: auto;
+    height: 75px;
+    vertical-align: middle;
+  }
+}
 
+.section--portfolio {
+  background-color: $white;
+}
+
+.section--about {
+  background-color: $g-cream;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  h2 {
+    line-height: 1em;
+    color: $g-red;
+  }
+  a {
+    color: $g-gray;
+  }
+  a:hover {
+    color: $g-yellow;
+  }
+}
+
+.about--pic {
+    margin: 0 auto 35px auto;
+    text-align: center;
+}
+
+.section--contact {
+  background-color: $g-gray;
+  color: $white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section--footer {
+  @include border-bottom-radius(20px);
+  background-color: $black;
+  color: $white;
+  height: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+  ul {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 75px;
+  }
+  li:first-child {
+    float: left;
+  }
+  li:last-child {
+    float: right;
+  }
+  img {
+    width: auto;
+    height: 75px;
+    vertical-align: middle;
+  }
+}
 
 
 // Responsive styles if needed
