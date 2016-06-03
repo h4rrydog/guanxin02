@@ -81,6 +81,7 @@
   background-color: $black;
   color: $white;
   height: 100px;
+  width: 100%;
   overflow: hidden;
   vertical-align: middle;
   ul {
@@ -93,18 +94,18 @@
   li {
     display: inline-block;
     vertical-align: middle;
-    line-height: 75px;
-  }
-  li:first-child {
-    float: left;
-  }
-  li:last-child {
-    float: right;
   }
   img {
     width: auto;
     height: 75px;
     vertical-align: middle;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $g-yellow;
   }
 }
 

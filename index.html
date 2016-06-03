@@ -16,12 +16,12 @@
 
 	<header role="banner">
 		<div class="container section--header">
-			<nav role="navigation"><ul>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#"><img src="img/Logo.png" alt="Guanxin" /></a></li>
-				<li><a href="#">Get in touch</a></li>
-				<li><a href="#">Blog</a></li>
+			<nav role="navigation" id="nav"><ul>
+				<li><a href="#hexGrid">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#bottom"><img src="img/Logo.png" alt="Guanxin" /></a></li>
+				<li><a href="#getInTouch">Get in touch</a></li>
+				<li><a href="http://blog.guanxin.de">Blog <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 			</ul></nav>
 		</div>
 	</header>
@@ -42,7 +42,7 @@
 				<li class="hex">
 					<a class="hexIn" href="http://getzilli.com">
 						<img src="img/Zilli.png" alt />
-						<h1>Zilli</h1>
+					<h1>Zilli</h1>
 						<p>Tackling childhood obesity through silliness and bossiness</p>
 					</a>
 				</li>
@@ -186,7 +186,7 @@
 			<div class="group">
 				<div class="span1"></div>
 				<div class="span5">
-					<div class="about--pic"><img src="img/Ifung.png" alt></div>
+					<div class="about--pic" id="about"><img src="img/Ifung.png" alt></div>
 					<h1>Ifung Lu, PhD</h1>
 					<h2>Product Designer and Technologist</h2>
 					<p>Ifung plays at the intersection of design, science and technology to create delightful products that help people lead healthier lives.</p> 
@@ -217,7 +217,7 @@
 			<div class="group">
 				<div class="span1"></div>
 				<div class="span10">
-					<h1>Get in Touch!</h1>
+					<h1 id="getInTouch">Get in Touch!</h1>
 					<p>We love working with passionate, community-oriented people on causes we believe in.  <br/>Ping us on social media, or send us an old-school <a href="mailto:ifung@guanxin.de">email</a>.</p>
 					<p>Help us to create together a better world by design.</p>
 				</div>
@@ -225,11 +225,11 @@
 		</div>
 	</main>
 	<footer>
-		<div class="container section--footer">
+		<div class="container section--footer" id="bottom">
 			<ul>
 				<li><strong>Guanxin.</strong> Social tech. Social Good.</li>
-				<li><a href="#"><img src="img/Logo.png" alt="Guanxin" /></a></li>
-				<li><strong>Creative Commons.</strong> BY-NC-SA.</li>
+				<li><a href="#nav"><img src="img/Logo.png" alt="Guanxin" /></a></li>
+				<li><a href="https://github.com/h4rrydog/guanxin02"><i class="fa fa-creative-commons" aria-hidden="true"></i> <strong>Creative Commons.</strong> BY-NC-SA. <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
 	</footer>

@@ -2,7 +2,37 @@
 // Main Layout Styles
 //**
 
+@include mobilefirst(641px) {
+    .section--footer {
+        li {
+            line-height: 75px;
+        }
+        li:first-child  {
+            float: left;
+        }
+        li:last-child {
+            float: right;
+        }
+    }
+}
 
+@include responsive(640px) {
+    .section--footer {
+        float: right;
+        li {
+            line-height: 18px;
+        }
+        li:first-child {
+            float: left;
+            clear: both;
+            margin-top: 20px;
+        }
+        li:last-child {
+            float: left;
+            clear: both;
+        }
+    }
+}
 
 
 // Responsive styles if needed
