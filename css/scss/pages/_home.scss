@@ -76,6 +76,44 @@
   padding-bottom: 32px;
 }
 
+
+@include mobilefirst(641px) {
+    .section--footer {
+        li {
+            line-height: 75px;
+        }
+        li:first-child  {
+            float: left;
+        }
+        li:last-child {
+            float: right;
+        }
+    }
+}
+
+@include responsive(640px) {
+    .section--footer {
+        position: relative;
+        li {
+            line-height: 18px;
+        }
+        li:first-child {
+            float: left;
+            clear: both;
+            margin-top: 20px;
+        }
+        li:last-child {
+            float: left;
+            clear: both;
+        }
+    }
+    #b-logo {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+    }
+}
+
 .section--footer {
   @include border-bottom-radius(20px);
   background-color: $black;
