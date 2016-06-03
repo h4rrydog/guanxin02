@@ -4,10 +4,47 @@
 
 
 // Sections
+@include mobilefirst(1101px) {
+    .section--header {
+        height: 100px;
+        a {
+            width: 200px;
+        }
+    }
+}
+
+@include responsive(1100px) {
+    .section--header {
+        a {
+            width: 130px;
+        }
+    }
+}
+
+@include responsive(700px) {
+    .section--header {
+        height: 135px;
+        position: relative;
+        li {
+            float: left;
+            clear: both;
+            text-align: left;
+        }
+        a {
+            line-height: 18px !important;
+        }
+    }
+
+    #t-logo {
+        position: absolute;
+        top: 30px;
+        right: 12px;
+    }
+}
+
 .section--header {
   @include border-top-radius(20px);
   background-color: $g-gray;
-  height: 100px;
   overflow: hidden;
   vertical-align: middle;
   nav {
@@ -32,7 +69,6 @@
     text-transform: uppercase;
     line-height: 75px;
     padding: 0;
-    width: 200px;
   }
   a:hover {
     color: $g-yellow;
