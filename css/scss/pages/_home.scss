@@ -43,7 +43,7 @@
 }
 
 .section--header {
-  @include border-top-radius(20px);
+  // @include border-top-radius(20px);
   background-color: $g-gray;
   overflow: hidden;
   vertical-align: middle;
@@ -151,7 +151,7 @@
 }
 
 .section--footer {
-  @include border-bottom-radius(20px);
+  // @include border-bottom-radius(20px);
   background-color: $black;
   color: $white;
   height: 100px;
