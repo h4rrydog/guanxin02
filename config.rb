@@ -1,9 +1,0 @@
-preferred_syntax = :scss
-# http_path = '/'
-css_path = 'css'
-sass_path= 'css/scss'
-# images_dir = 'assets/images'
-# javascripts_dir = 'assets/javascripts'
-# relative_assets = true
-line_comments = true
-output_style = :compressed
