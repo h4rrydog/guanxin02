@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -15,8 +27,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   max-width: 952px;
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-top: 96px;
+  margin-bottom: 96px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -98,6 +110,7 @@ a {
 }
 
 .section.section-about {
+  min-height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -118,6 +131,15 @@ a {
   background-color: #4a4a4a;
 }
 
+.section.section-trusted {
+  background-color: #fff;
+}
+
+.section.section-people {
+  min-height: 100vh;
+  background-color: #fdf9c6;
+}
+
 .navbar {
   position: fixed;
   left: 0%;
@@ -127,6 +149,8 @@ a {
   display: block;
   height: 88px;
   background-color: hsla(0, 0%, 86.7%, 0);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 
 .slider {
@@ -231,6 +255,10 @@ a {
   color: #c3021a;
 }
 
+.nav-link.inactive {
+  color: #4a4a4a;
+}
+
 .language.active {
   color: #fff;
   font-weight: 900;
@@ -282,7 +310,7 @@ a {
 
 .company-description {
   max-width: 850px;
-  margin-bottom: 56px;
+  margin-bottom: 75px;
   color: #fdf9c6;
   font-size: 42px;
   line-height: 58px;
@@ -375,7 +403,7 @@ a {
 .slide-info {
   position: absolute;
   left: auto;
-  top: 88px;
+  top: 112px;
   right: 0%;
   bottom: auto;
   padding: 16px 47px 16px 24px;
@@ -633,6 +661,7 @@ a {
   border-style: none;
   border-width: 3px;
   border-color: #000;
+  border-radius: 5px;
   background-color: #4a4a4a;
 }
 
@@ -858,6 +887,41 @@ a {
 .hack {
   opacity: 0;
   line-height: 0px;
+}
+
+.trusted-by {
+  margin-bottom: 30px;
+  color: #000;
+  font-weight: 300;
+  text-align: left;
+}
+
+.trusted-companies {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.image-3 {
+  margin: auto 24px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.grid {
+  justify-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
