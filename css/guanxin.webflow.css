@@ -489,8 +489,8 @@ a {
 
 .paragraph {
   color: #000;
-  font-size: 42px;
-  line-height: 58px;
+  font-size: 32px;
+  line-height: 48px;
   font-weight: 300;
   text-align: center;
 }
@@ -502,13 +502,17 @@ a {
   font-size: 24px;
   line-height: 32px;
   font-weight: 300;
+  text-align: left;
 }
 
 .paragraph.definition {
   margin-bottom: 24px;
+  padding-right: 13px;
+  padding-left: 13px;
   color: #c3021a;
   font-size: 24px;
   line-height: 32px;
+  text-align: left;
 }
 
 .person {
@@ -600,10 +604,10 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .photo {
