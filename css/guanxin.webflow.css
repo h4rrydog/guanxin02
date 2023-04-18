@@ -105,7 +105,7 @@ a {
   height: 88px;
   background-color: hsla(0, 0%, 86.7%, 0);
   -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 
 .slider {
@@ -144,7 +144,7 @@ a {
   max-width: none;
   filter: brightness(90%);
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .nav-menu {
@@ -231,7 +231,7 @@ a {
 }
 
 .company-tagline {
-  max-width: 600px;
+  max-width: 850px;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #fff;
@@ -303,7 +303,7 @@ a {
   flex-wrap: nowrap;
   align-items: center;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .slide-info {
@@ -346,7 +346,7 @@ a {
   width: 100%;
   max-width: none;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .image-2 {
@@ -380,7 +380,7 @@ a {
   color: #c3021a;
   font-size: 60px;
   line-height: 80px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .paragraph {
